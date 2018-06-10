@@ -240,6 +240,8 @@ nav h1 a {
 .inside #restaurant-window-container {
   position:fixed;
   top: 130px;
+  width: 100%;
+  
 }
 #restaurant-name {
   color: #f18200;
