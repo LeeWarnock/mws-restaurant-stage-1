@@ -93,7 +93,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
-  padding: 10px 40px 16px;
+  padding: 10px 0;
   list-style: none;
   background-color: #eee;
   font-size: 17px;
@@ -224,7 +224,7 @@ nav h1 a {
   height: 200px;
   position: fixed;
   right: 0;
-  top: 131px;
+  top: 81px;
   width: 100%;
 }
 .inside #map {
