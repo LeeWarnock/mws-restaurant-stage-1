@@ -237,6 +237,10 @@ nav h1 a {
   position: absolute;
   width: 50%;
 }
+.inside #restaurant-window-container {
+  position:fixed;
+  top: 130px;
+}
 #restaurant-name {
   color: #f18200;
   font-family: Arial, sans-serif;
