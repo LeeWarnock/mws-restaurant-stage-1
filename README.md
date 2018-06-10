@@ -1,5 +1,7 @@
 # Mobile Web Specialist Certification Course
 ---
+### Reviewer Please Note: Google Maps API Key set to only work on localhost
+---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
 ## Project Overview: Stage 1
