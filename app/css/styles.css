@@ -95,11 +95,8 @@ nav h1 a {
 #breadcrumb {
   padding: 10px 0;
   list-style: none;
-  color: #f18200;
   background-color: #eee;
   font-family: Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 200;
   letter-spacing: 0;
   margin: 15px 0 30px;
   text-transform: uppercase;
@@ -257,7 +254,7 @@ nav h1 a {
   font-size: 20pt;
   font-weight: 200;
   letter-spacing: 0;
-  margin: 15px 0 30px;
+  margin: 15px 0;
   text-transform: uppercase;
   line-height: 1.1;
 }
