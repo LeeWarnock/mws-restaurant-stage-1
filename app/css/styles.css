@@ -234,13 +234,16 @@ nav h1 a {
 }
 .inside #footer {
   bottom: 0;
-  position: relative;
+  height: 100px;
+  left: 0;
+  position: absolute;
   width: 100%;
 }
 .inside #restaurant-window-container {
   position: relative;
   top: 280px;
   width: 100%;
+  display: flex;
   flex-flow: column nowrap;
 }
 #restaurant-name {
