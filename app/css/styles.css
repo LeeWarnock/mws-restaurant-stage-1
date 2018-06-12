@@ -12,7 +12,7 @@ p {
 }
 body {
   background-color: #fdfdfd;
-  margin: 0;
+  //margin: 0;
   position: relative;
   max-width: 1366px;
   margin-left: auto;
