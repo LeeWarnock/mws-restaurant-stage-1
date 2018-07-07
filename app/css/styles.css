@@ -109,7 +109,7 @@ nav h1 a {
   background-color: #eee;
   font-family: Arial, sans-serif;
   letter-spacing: 0;
-  margin: 15px 0 30px;
+  margin: 0;
   text-transform: uppercase;
   line-height: 1.1;
   width: 100%;
@@ -227,18 +227,20 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
+.inside{
+  margin-top: 0;
+}
+
 .inside header {
-  position: fixed;
-  top: 0;
+  //position: fixed;
   width: 100%;
   z-index: 1000;
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 200px;
+  height: 300px;
   position: relative;
-  right: 0;
-  top: 81px;
+  margin: 0;
   width: 100%;
 }
 .inside #map {
@@ -254,7 +256,7 @@ nav h1 a {
 }
 .inside #restaurant-window-container {
   position: relative;
-  top: 280px;
+  top: 56px;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
