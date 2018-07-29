@@ -155,7 +155,7 @@ createRestaurantHTML = restaurant => {
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   li.append(image);
 
-  const name = document.createElement("h1");
+  const name = document.createElement("h2");
 
   name.innerHTML = restaurant.name;
   li.append(name);
@@ -173,7 +173,7 @@ createRestaurantHTML = restaurant => {
   const more = document.createElement("button");
 
   more.innerHTML = "View Details";
-  more.onclick = function () {
+  more.onclick = function() {
     const url = DBHelper.urlForRestaurant(restaurant);
     window.location = url;
   };
