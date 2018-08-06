@@ -1,7 +1,7 @@
-// Install event for service worker
+// Install site assets via service worker
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open(cacheID).then(cache => {
+    caches.open("restaurantReviews").then(cache => {
       return cache
         .addAll([
           "/",
