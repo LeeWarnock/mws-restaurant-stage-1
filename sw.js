@@ -1,3 +1,8 @@
+/*
+Service worker code taken from: https://developers.google.com/web/fundamentals/primers/service-workers/#install_a_service_worker
+https://developer.mozilla.org/en-US/docs/Web/API/Clients/claim 
+*/
+
 self.addEventListener("install", function(event) {
   // Perform install steps
 });
